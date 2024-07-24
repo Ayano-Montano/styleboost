@@ -1,0 +1,26 @@
+
+/*Geral*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+   
+body {
+    scrollbar-width:thin;
+}
+
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background: #232a31;
+}
+

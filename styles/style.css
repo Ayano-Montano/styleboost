@@ -1,0 +1,66 @@
+@import url('navBar.css');
+
+html {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+footer {
+    margin-top: auto;
+}
+
+
+.container-mae {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 130px);
+    gap: 50px;
+    background: rgb(126,10,255);
+background: linear-gradient(90deg, rgba(126,10,255,1) 0%, rgba(198,18,221,1) 57%, rgba(186,109,251,1) 100%);
+}
+
+
+.container-texto {
+    width: 50%;
+    color: white;
+}
+
+
+.imagem-logo {
+  width: 300px;
+  border-radius: 30px;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    footer {
+        margin-top: initial;
+    }
+    .container-mae {
+        flex-direction: column;
+        height: initial;
+        padding: 10px;
+    }
+
+    .container-texto {
+        width: 100%;
+    }
+
+    .container-texto .titulo {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .container-texto .paragrafo {
+        text-align: center;
+        font-size: 17px;
+    }
+}
